@@ -1,0 +1,25 @@
+= Описание API по курсам
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== Добавление продукта
+
+Можно опубликовать курсы со статусом *PUBLISHED*
+
+.request
+
+include::{snippets}\add_product\http-request.adoc[]
+
+.response   
+
+include::{snippets}\add_product\http-response.adoc[]
+
+.response-fields
+
+include::{snippets}\add_product\response-fields.adoc[]
